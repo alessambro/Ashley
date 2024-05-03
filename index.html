@@ -74,8 +74,22 @@
 
         .hero-sect-3 {
             border-top-right-radius: 60%;
-            border-bottom-left-radius: 60%;
+            border-bottom-left-radius: 5%;
+            border-bottom-right-radius: 5%;
             background: url(background_3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 90vh;
+        }
+
+        .hero-sect-4 {
+            border-top-right-radius: 100%;
+            border-bottom-left-radius: 0%;
+            border-bottom-right-radius: 0%;
+            border-top-left-radius: 100%;
+            background: url(background_6.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -121,7 +135,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#second-page">Tips</a>
@@ -219,13 +233,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid hero-sect-3">
-        <div class="row mar-le">
-            <div class="col mt-5">
+        <div class="row mt-5">
+            <div class="col">
 
             </div>
-            <div class="col mar-le">
+            <div class="col">
                 <div class="card ms-4" style="width: 22rem;">
                     <img src="card7.jpg" class="card-img-top" alt="..." height="200px">
                     <div class="card-body">
@@ -240,6 +252,12 @@
 
             </div>
         </div>
+    </div>
+    <div class="container-fluid hero-sect-3 mt-5">
+        
+    </div>
+    <div class="container-fluid hero-sect-4" style="margin-top: 75px;">
+        
     </div>
 
     <!-- Student's Info -->
